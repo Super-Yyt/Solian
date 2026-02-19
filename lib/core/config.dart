@@ -13,7 +13,7 @@ part 'config.g.dart';
 
 const kTokenPairStoreKey = 'dyn_user_tk';
 
-const kNetworkServerDefault = 'https://api.solian.app';
+const kNetworkServerDefault = 'https://api.utopia.pm';
 const kNetworkServerStoreKey = 'app_server_url';
 
 const kAppbarTransparentStoreKey = 'app_bar_transparent';
