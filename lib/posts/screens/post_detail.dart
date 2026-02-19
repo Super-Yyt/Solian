@@ -340,7 +340,7 @@ class PostActionButtons extends HookConsumerWidget {
         onPressed: () {
           showShareSheetLink(
             context: context,
-            link: 'https://solian.app/posts/${post.id}',
+            link: 'https://www.utopia.pm/posts/${post.id}',
             title: 'sharePost'.tr(),
             toSystem: true,
           );
