@@ -174,7 +174,7 @@ class PostActionableItem extends HookConsumerWidget {
               image: MenuImage.icon(Symbols.link),
               callback: () {
                 Clipboard.setData(
-                  ClipboardData(text: 'https://solian.app/posts/${item.id}'),
+                  ClipboardData(text: 'https://www.utopia.pm/posts/${item.id}'),
                 );
               },
             ),
@@ -262,7 +262,7 @@ class PostActionableItem extends HookConsumerWidget {
               callback: () {
                 showShareSheetLink(
                   context: context,
-                  link: 'https://solian.app/posts/${item.id}',
+                  link: 'https://www.utopia.pm/posts/${item.id}',
                   title: 'sharePost'.tr(),
                   toSystem: true,
                 );
