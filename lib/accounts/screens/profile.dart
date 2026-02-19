@@ -162,7 +162,7 @@ class _AccountBasicInfo extends StatelessWidget {
                           SharePlus.instance.share(
                             ShareParams(
                               uri: Uri.parse(
-                                'https://solian.app/@${data.name}',
+                                'https://www.utopia.pm/@${data.name}',
                               ),
                             ),
                           );
