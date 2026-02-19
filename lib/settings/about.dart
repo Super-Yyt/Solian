@@ -27,8 +27,8 @@ class AboutScreen extends ConsumerStatefulWidget {
 
 class _AboutScreenState extends ConsumerState<AboutScreen> {
   PackageInfo _packageInfo = PackageInfo(
-    appName: 'Solian',
-    packageName: 'dev.solsynth.solian',
+    appName: 'USolian',
+    packageName: 'pm.utopia.sn',
     version: '1.0.0',
     buildNumber: '1',
   );
