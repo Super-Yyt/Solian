@@ -127,11 +127,11 @@ class FileInfoSheet extends StatelessWidget {
             ListTile(
               leading: const Icon(Symbols.launch),
               title: Text('openInBrowser').tr(),
-              subtitle: Text('https://solian.app/files/${item.id}'),
+              subtitle: Text('https://www.utopia.pm/files/${item.id}'),
               contentPadding: EdgeInsets.symmetric(horizontal: 24),
               onTap: () {
                 launchUrlString(
-                  'https://solian.app/files/${item.id}',
+                  'https://www.utopia.pm/files/${item.id}',
                   mode: LaunchMode.externalApplication,
                 );
               },
