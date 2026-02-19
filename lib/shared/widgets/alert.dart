@@ -438,7 +438,7 @@ void showNotification({
 }
 
 Future<void> openExternalLink(Uri url, WidgetRef ref) async {
-  final whitelistDomains = ['solian.app', 'solsynth.dev'];
+  final whitelistDomains = ['www.utopia.pm', 'utopia.pm'];
   if (whitelistDomains.any(
     (domain) => url.host == domain || url.host.endsWith('.$domain'),
   )) {
